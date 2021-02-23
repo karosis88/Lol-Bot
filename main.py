@@ -6,8 +6,8 @@ import json
 from test import all_champions
 
 
-lol_key = 'RGAPI-75d46bba-6377-42ab-a8f5-23ec3986ad54'
-discord_key = 'ODEyNzM1NDgzNDk0MDA2ODE1.YDFE5w.zXfjtYdLb2xk5pLkHUPYdMMtK0k'
+lol_key = 'SECRET CODE'
+discord_key = 'SECRET CODE'
 
 bot = commands.Bot(command_prefix=';')
 
