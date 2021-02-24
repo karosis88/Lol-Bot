@@ -203,7 +203,7 @@ async def test(ctx, *,  username):
 
                 em.add_field(name = f'**Victory** - {queue}'if match['participants'][j]['stats']['win'] == True else f'**Defeat** - {queue}',
                 value = f'{emojiforhistory} {kills}/{deaths}/{assists} -  {item0}{item1}{item2}{item3}{item4}{item5}{item6}', inline=False)
-    em.set_thumbnail(url = f'http://lolg-cdn.porofessor.gg/img/summonerIcons/11.4/64/{IconId}.png')
+    em.set_thumbnail(url = f'http://ddragon.leagueoflegends.com/cdn/11.4.1/img/profileicon/{IconId}.png')
     await ctx.send(embed = em)
 
 bot.run(discord_key)
