@@ -153,5 +153,36 @@ all_champions = {
         777: "Yone",
         147: "Seraphine",
         526: "Rell"}
-print(len(all_champions))
+
+
+
+languageru = {"stats": {1: "Сервер", 2: "не найден", 3: "Ниже представлены все доступные сервера:", 4: "Что-то пошло не так", 5: "Лучшие Чемпионы", 6: "Очки Мастерства", 7: "Ранг", 8: "История Игр", 9: "Победа", 10: "Поражение"}, "monthnames" : {1 :'Январь',
+2: 'Февраль',
+3: 'Март',
+4: 'Апрель',
+5: 'Май',
+6: 'Июнь',
+7: 'Июль',
+8: 'Август',
+9: 'Сентябрь',
+10: 'Октябрь',
+11: 'Ноябрь',
+12:'Декабрь'},
+'error' : {1 : 'Сервер', 2: 'На пример', 3: 'Все доступные сервера :', 4: 'Никнейм', 5: '**Синтакс еррор , попробуйте**', 6: 'You have successfully changed your language to English', 7: 'Смена языка'},
+'help' : {1 : 'Статистика игрока', 2: 'история игр, лучшие чемпионы, ранг', 3: 'Все доступные сервера', 4: 'Ближайшие турниры Клеш', 5: 'Ниже представлены все доступные команды:'}}
+
+languageeng = {"stats": {1: "Server", 2: "not found", 3: "There is all available servers", 4: "Something went wrong", 5: "Main Champions", 6: "Points", 7: "Rank", 8: "History", 9: "Victory", 10: "Defeat"}, "monthnames" : {1 :'January',
+2: 'February',
+3: 'March',
+4: 'April',
+5: 'May',
+6: 'June',
+7: 'July',
+8: 'August',
+9: 'September',
+10: 'October',
+11: 'November',
+12:'December'},
+'error' : {1 : 'Server', 2: 'For example', 3: 'Check available servers with command :', 4: 'Username', 5: '**Syntax error , try**', 6: 'Вы успешно поменяли язык на Русский', 7: 'Switch language'},
+'help' : {1 : 'Information about', 2: 'game history, main champions, rank', 3: 'Returns all available servers', 4: 'Returns a list of active and upcoming tournaments.', 5: 'There is all available commands:'}}
 
