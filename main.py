@@ -13,8 +13,8 @@ from imgurrlol import imgurr
 
 
 
-lol_key = 'RGAPI-337275ee-c7e5-4bf6-a68e-581c38667305'
-discord_key = 'ODEyNzM1NDgzNDk0MDA2ODE1.YDFE5w.oQ3LiX2QYMOaeoaQCYZkRkCRqeI'
+lol_key = secret
+discord_key = secret
 
 bot = commands.Bot(command_prefix='r>')
 lol = LolWatcher(lol_key)
